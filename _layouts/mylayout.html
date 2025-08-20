@@ -1,70 +1,35 @@
+<!-- default layout-->
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <head>
-    <!-- default settings -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/MI.png">
+  {% if page.favicon %}
+    <link rel="icon" href="{{ page.favicon | relative_url }}">
+  {% elsif site.favicon %}
+    <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {% endif %}
 
-    <!-- Jekyll stuff -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    {% if page.logo %}
+      <img src="{{ page.logo | relative_url }}" alt="Logo" class="site-logo">
+    {% elsif site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="Logo" class="site-logo">
+    {% endif %}
+    <h1>{{ page.title | default: site.title }}</h1>
+  </header>
 
-    {% seo %}
+  <main>
+    {{ content }}
+  </main>
 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="/languages/stylesheet.css">
-
-    <!-- Google icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <style>
-      .material-symbols-outlined {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 300,
-        'GRAD' 0,
-        'opsz' 24
-      }
-    </style>
-
-  </head>
-
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body" style="margin-top: 0px !important">
-
-      <!-- MENU -->
-      <div class="menu">
-
-        <div class="menu_row">
-
-          <a href="{{ "/" | absolute_url }}">
-            <img height="25" width="25" src="/images/MI.png"
-            style="background-color: transparent;">
-          </a>
-
-          <!-- title "languages" -->
-          <a href="{{ "/" | absolute_url }}">Misha Iomdin</a>
-
-        </div>
-
-      </div>
-
-      
-
-      {{ content }}
-
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
-      </div>
-      {% endif %}
-    </div>
-    <script>anchors.add();</script>
-  </body>
-
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+</body>
 </html>

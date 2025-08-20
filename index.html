@@ -1,0 +1,105 @@
+<!--
+Project name: iomdin.com
+Started on: 20.08.2025
+by @mishaiomdin
+
+
+index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="titleBrowser">Misha Iomdin</title>
+
+    <!-- LIBRARIES -->
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/MI.png">
+
+    <!-- Family tree -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+	<script src="https://cdn.rawgit.com/ErikGartner/dTree/master/dist/dTree.min.js"></script>
+</head>
+<body>
+
+    <header class="website_header">
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <!-- misha.iomdin.com -->
+            <span class="material-symbols-outlined">home</span>
+            <a href="https://misha.iomdin.com/" id="misha.iomdin.com">misha.iomdin.com</a>
+    
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <span class="material-symbols-outlined">language</span>
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="de">Deutsch</option>
+                <option value="he">עברית</option>
+            </select>
+        </span>
+    </header>
+
+    <header class="page_header">
+        <h1 class="icon-text">
+            <span class="logo" style="height: 70px;">
+                <!-- Logo: animated emoji -->
+                <img class="logo" src="/images/MishaBook.jpg" alt="">
+            </span>
+            <span id="titleText">Misha Iomdin</span>
+        </h1>
+    </header>
+
+    <main>
+        <!-- About-->
+        <div id="about">
+            <h2 class="icon-text">
+                <span class="material-symbols-outlined">group</span>
+                <span id="aboutTitle">About me</span>
+            </h2>
+            <p id="aboutExplanation">
+                I'm a school student in Berlin, interested in computer science, maths, linguistics and languages.
+            </p>
+            <button id="CV" onclick="window.location.href='files/CV_en.pdf'">My CV</button>
+        </div>
+
+        <!-- Projects-->
+        <div id="projects">
+            <h2 class="icon-text">
+                <span class="material-symbols-outlined">bolt</span>
+                <span id="projectsTitle">Projects</span>
+            </h2>
+            <p id="projectsExplanation">
+                <ul>
+                    <li><a href="https://mishaiomdin.github.io/HebrewSongs/" target="_blank">Hebrew Songs</a>: interactive subtitles</li>
+                    <li><a href="https://mishaiomdin.github.io/languages/" target="_blank">Language Notes</a>: tables etc. for languages I learn and teach</li>
+                    <li><a href="https://mishaiomdin.github.io/algorithms/" target="_blank">Algorithms</a>: visualizations for algorithms</li>
+                    <li><a href="https://github.com/mishaiomdin/ciphers" target="_blank">Ciphers</a>: visual decryption of ciphers</li>
+                    <li><a href="https://github.com/mishaiomdin/ChisloBot" target="_blank">ChisloBot</a>: Telegram Bot for Russian numerals declension practice</li>
+                </ul>
+            </p>
+    </main>
+
+    <!-- Main script -->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/family.js"></script>
+</body>
+</html>

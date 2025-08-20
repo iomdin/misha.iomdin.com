@@ -1,0 +1,37 @@
+{
+    "en": {
+        "titleBrowser": "Misha Iomdin",
+        "titleText": "Misha Iomdin",
+        "aboutTitle": "About me",
+        "aboutExplanation": "I'm a Heinrich-Hertz-Gymnasium student in Berlin, interested in computer science, maths, linguistics and languages.",
+        "CV": "My CV",
+        "projectsTitle": "Projects"
+    },
+
+    "ru": {
+        "titleBrowser": "Миша Иомдин",
+        "titleText": "Миша Иомдин",
+        "aboutTitle": "Обо мне",
+        "aboutExplanation": "Я учусь в гимназии им. Генриха Герца в Берлине, интересуюсь программированием, математикой, лингвистикой и языками.",
+        "CV": "Моё резюме",
+        "projectsTitle": "Проекты"
+    },
+
+    "de": {
+        "titleBrowser": "Mischa Iomdin",
+        "titleText": "Mischa Iomdin",
+        "aboutTitle": "Über mich",
+        "aboutExplanation": "Ich bin Schüler am Heinrich-Hertz-Gymnasium in Berlin und interessiere mich für Informatik, Mathematik, Linguistik und Sprachen.",
+        "CV": "Mein Lebenslauf",
+        "projectsTitle": "Projekte"
+    },
+
+    "he": {
+        "titleBrowser": "מיכאל יומדין",
+        "titleText": "מיכאל יומדין",
+        "aboutTitle": "עליי",
+        "aboutExplanation": ".אני לומד בגימנסיית היינריך הרץ בברלין ואוהב מדעי מחשב, מתמטיקה, בלשנות ושפות",
+        "CV": "קורות החיים שלי",
+        "projectsTitle": "פרויקטים"
+    }
+}
