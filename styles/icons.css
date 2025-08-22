@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/material-icons-round.woff2') format('woff2'),
+}
+
+icon {
+  font-family: 'Material Icons', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;  /* Match icon size to text */
+  line-height: 1;  /* Ensure vertical alignment */
+  display: flex;  /* Align icon properly */
+  align-items: center;  /* Center the icon */
+  margin-right: 5px;
+}
+
+
+.icon-text {
+    display: inline-flex;
+    align-items: center; /* Align items vertically */
+    gap: 0.4em;
+}
+
+.icon-text img,
+.icon-text .material-symbols-outlined,
+.icon-text svg {
+    /*height: 1em;    /* Image height matches the text size */
+    width: auto;    /* Maintain the aspect ratio */
+    vertical-align: middle;  /* Align vertically */
+}

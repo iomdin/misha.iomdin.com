@@ -6,46 +6,6 @@ by @mishaiomdin
 style.css
 */
 
-
-/* GOOGLE FONTS */
-
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-
-
-/* GOOGLE ICONS */
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap');
-
-.material-symbols-outlined {
-  font-family: 'Material Symbols Outlined', sans-serif;
-  font-variation-settings:
-        'FILL' 0,
-        'wght' 300,
-        'GRAD' 0,
-        'opsz' 24;
-}
-
-.material-symbols-outlined {
-    font-size: 1em;  /* Match icon size to text */
-    line-height: 1;  /* Ensure vertical alignment */
-    display: flex;  /* Align icon properly */
-    align-items: center;  /* Center the icon */
-    margin-right: 5px;
-}
-
-.icon-text {
-    display: inline-flex;
-    align-items: center; /* Align items vertically */
-    gap: 0.4em;
-}
-
-.icon-text img,
-.icon-text .material-symbols-outlined,
-.icon-text svg {
-    /*height: 1em;    /* Image height matches the text size */
-    width: auto;    /* Maintain the aspect ratio */
-    vertical-align: middle;  /* Align vertically */
-}
-
 /* OVERALL */
 
 body, button, input, select, textarea {
