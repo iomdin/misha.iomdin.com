@@ -24,9 +24,8 @@ icon {
 }
 
 .icon-text img,
-.icon-text .material-symbols-outlined,
 .icon-text svg {
-    /*height: 1em;    /* Image height matches the text size */
+    height: 2em;    /* Image height matches the text size */
     width: auto;    /* Maintain the aspect ratio */
     vertical-align: middle;  /* Align vertically */
 }
