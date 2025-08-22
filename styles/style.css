@@ -291,7 +291,7 @@ th {
   border-width: 1px;
 }
 
-.icon {
-  font-size: 24px !important;
-  margin: 10px !important;
+
+.no_bullets {
+  list-style-type: none;
 }

@@ -1,19 +1,26 @@
 @font-face {
-  font-family: 'Material Icons';
+  font-family: 'Material Icons Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/material-icons-round.woff2') format('woff2'),
+  src: url('../fonts/material-icons-rounded.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/material-symbols-rounded.woff2') format('woff2'),
+       url('../fonts/material-symbols-rounded.ttf') format('ttf')
 }
 
 icon {
-  font-family: 'Material Icons', sans-serif;
+  font-family: 'Material Symbols Rounded', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1em;  /* Match icon size to text */
   line-height: 1;  /* Ensure vertical alignment */
   display: flex;  /* Align icon properly */
   align-items: center;  /* Center the icon */
-  margin-right: 5px;
 }
 
 
@@ -24,8 +31,27 @@ icon {
 }
 
 .icon-text img,
-.icon-text svg {
+.icon-text svg,
+.icon-text icon {
+    height: 1em;    /* Image height matches the text size */
+    width: auto;    /* Maintain the aspect ratio */
+    vertical-align: middle;  /* Align vertically */
+}
+
+.icon-text-big {
+    display: inline-flex;
+    align-items: center; /* Align items vertically */
+    gap: 0.4em;
+}
+
+.icon-text-big img,
+.icon-text-big svg,
+.icon-text-big icon {
     height: 2em;    /* Image height matches the text size */
     width: auto;    /* Maintain the aspect ratio */
     vertical-align: middle;  /* Align vertically */
+}
+
+.icon-text-big icon {
+font-size: 2em;
 }
