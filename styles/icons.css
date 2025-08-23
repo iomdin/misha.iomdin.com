@@ -5,7 +5,8 @@
   font-family: 'Material Icons Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/material-icons-rounded.woff2') format('woff2'),
+  src: url('../fonts/material-icons-rounded.woff2') format('woff2');
+  font-display: block;
 }
 
 @font-face {
@@ -13,12 +14,12 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/material-symbols-rounded.woff2') format('woff2'),
-       url('../fonts/material-symbols-rounded.ttf') format('ttf')
+       url('../fonts/material-symbols-rounded.ttf') format('ttf');
+  font-display: block;
 }
 
 icon {
   max-width: 1em;
-  font-display: block;
   font-family: 'Material Symbols Rounded', sans-serif;
   font-weight: normal;
   font-style: normal;
