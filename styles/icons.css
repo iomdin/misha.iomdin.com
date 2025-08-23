@@ -23,6 +23,10 @@ icon {
   align-items: center;  /* Center the icon */
 }
 
+.big_icon {
+  font-size: 2em;
+}
+
 
 .icon-text {
     display: inline-flex;
