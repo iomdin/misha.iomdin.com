@@ -1,67 +1,31 @@
 /* icons.css */
 /* Icons */
 
-@font-face {
-  font-family: 'Material Icons Rounded';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/material-icons-rounded.woff2') format('woff2');
-  font-display: block;
+.icon {
+  line-height: 1;
+  height: 1em;
+  width: auto;
 }
 
-@font-face {
-  font-family: 'Material Symbols Rounded';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/material-symbols-rounded.woff2') format('woff2'),
-       url('../fonts/material-symbols-rounded.ttf') format('ttf');
-  font-display: block;
+.big-icon {
+  line-height: 1;
+  height: 2em;
+  width: auto;
 }
-
-icon {
-  max-width: 1em;
-  font-family: 'Material Symbols Rounded', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1em;  /* Match icon size to text */
-  line-height: 1;  /* Ensure vertical alignment */
-  display: flex;  /* Align icon properly */
-  align-items: center;  /* Center the icon */
-}
-
-.big_icon {
-  font-size: 2em;
-}
-
 
 .icon-text {
     display: inline-flex;
-    align-items: center; /* Align items vertically */
+    align-items: center;
     gap: 0.4em;
 }
 
-.icon-text img,
-.icon-text svg,
-.icon-text icon {
-    height: 1em;    /* Image height matches the text size */
-    width: auto;    /* Maintain the aspect ratio */
+.icon-text .icon,
+.icon-text .big-icon {
     vertical-align: middle;  /* Align vertically */
 }
 
-.icon-text-big {
-    display: inline-flex;
-    align-items: center; /* Align items vertically */
-    gap: 0.4em;
-}
-
-.icon-text-big img,
-.icon-text-big svg,
-.icon-text-big icon {
-    height: 2em;    /* Image height matches the text size */
-    width: auto;    /* Maintain the aspect ratio */
-    vertical-align: middle;  /* Align vertically */
-}
-
-.icon-text-big icon {
-font-size: 2em;
+.icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
 }
