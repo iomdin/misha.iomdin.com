@@ -1,37 +1,161 @@
 {
-    "en": {
-        "titleBrowser": "Misha Iomdin",
-        "titleText": "Misha Iomdin",
-        "aboutTitle": "About me",
-        "aboutExplanation": "I'm a Heinrich-Hertz-Gymnasium student in Berlin, interested in computer science, maths, linguistics and languages.",
-        "CV": "My CV",
-        "projectsTitle": "Projects"
-    },
+  "en": {
+    "titleBrowser": "Misha Iomdin",
+    "titleText": "Misha Iomdin",
+    "aboutTitle": "About me",
+    "aboutExplanation": "I'm a Heinrich-Hertz-Gymnasium student in Berlin, interested in computer science, maths, linguistics and languages.",
+    "CV": "My CV",
 
-    "ru": {
-        "titleBrowser": "Миша Иомдин",
-        "titleText": "Миша Иомдин",
-        "aboutTitle": "Обо мне",
-        "aboutExplanation": "Я учусь в гимназии им. Генриха Герца в Берлине, интересуюсь программированием, математикой, лингвистикой и языками.",
-        "CV": "Моё резюме",
-        "projectsTitle": "Проекты"
-    },
+    
+    "ProjectsTitle": "Projects",
 
-    "de": {
-        "titleBrowser": "Mischa Iomdin",
-        "titleText": "Mischa Iomdin",
-        "aboutTitle": "Über mich",
-        "aboutExplanation": "Ich bin Schüler am Heinrich-Hertz-Gymnasium in Berlin und interessiere mich für Informatik, Mathematik, Linguistik und Sprachen.",
-        "CV": "Mein Lebenslauf",
-        "projectsTitle": "Projekte"
-    },
+    "HebrewSongsTitle": "Hebrew Songs",
+    "HebrewSongsDescription": "interactive subtitles for songs, used for language learning",
+    "LanguageNotesTitle": "Language Notes",
+    "LanguageNotesDescription": "tables etc. for languages I learn and teach",
+    "AlgorithmsTitle": "Algorithms",
+    "AlgorithmsDescription": "visualizations for algorithms",
+    "CiphersTitle": "Ciphers",
+    "CiphersDescription": "visual decryption of ciphers",
+    "ChisloBotTitle": "ChisloBot",
+    "ChisloBotDescription": "Telegram Bot for Russian numerals declension practice",
 
-    "he": {
-        "titleBrowser": "מיכאל יומדין",
-        "titleText": "מיכאל יומדין",
-        "aboutTitle": "עליי",
-        "aboutExplanation": ".אני לומד בגימנסיית היינריך הרץ בברלין ואוהב מדעי מחשב, מתמטיקה, בלשנות ושפות",
-        "CV": "קורות החיים שלי",
-        "projectsTitle": "פרויקטים"
-    }
+
+    "EducationTitle": "Education",
+
+    "HHGymTitle": "Heinrich-Hertz-Gymnasium",
+    "HHGymDescription": "majors: math, computer science",
+    "HHGymPlace": "Berlin",
+    "HHGymDates": "2024–2026",
+
+    "ShimonPeresTitle": "Shimon Peres High Tech School",
+    "ShimonPeresDescription": "major: computer science",
+    "ShimonPeresPlace": "Tel Aviv",
+    "ShimonPeresDates": "2021–2024",
+
+    "School57Title": "State School #57",
+    "School57Description": "majors: math, computer science",
+    "School57Place": "Moscow",
+    "School57Dates": "2013–2021"
+  },
+
+  "ru": {
+    "titleBrowser": "Миша Иомдин",
+    "titleText": "Миша Иомдин",
+    "aboutTitle": "Обо мне",
+    "aboutExplanation": "Я учусь в гимназии им. Генриха Герца в Берлине, интересуюсь программированием, математикой, лингвистикой и языками.",
+    "CV": "Моё резюме",
+    
+
+    "ProjectsTitle": "Проекты",
+
+    "HebrewSongsTitle": "Hebrew Songs",
+    "HebrewSongsDescription": "интерактивные субтитры к песням для изучения иврита",
+    "LanguageNotesTitle": "Language Notes",
+    "LanguageNotesDescription": "таблицы и другие материалы для разных языков",
+    "AlgorithmsTitle": "Algorithms",
+    "AlgorithmsDescription": "визуализация алгоритмов",
+    "CiphersTitle": "Ciphers",
+    "CiphersDescription": "визуальное расшифровывание шифров и незнакомых письменностей",
+    "ChisloBotTitle": "ChisloBot",
+    "ChisloBotDescription": "Telegram-бот для тренировки склонения русских числительных",
+
+
+    "EducationTitle": "Образование",
+
+    "HHGymTitle": "Гимназия им. Генриха Герца",
+    "HHGymDescription": "профили: математика, информатика",
+    "HHGymPlace": "Берлин",
+    "HHGymDates": "2024–2026",
+
+    "ShimonPeresTitle": "Школа высоких технологий им. Шимона Переса",
+    "ShimonPeresDescription": "профиль: информатика",
+    "ShimonPeresPlace": "Тель-Авив",
+    "ShimonPeresDates": "2021–2024",
+
+    "School57Title": "Школа №57",
+    "School57Description": "профили: математика, информатика",
+    "School57Place": "Москва",
+    "School57Dates": "2013–2021"
+  },
+
+  "de": {
+    "titleBrowser": "Mischa Iomdin",
+    "titleText": "Mischa Iomdin",
+    "aboutTitle": "Über mich",
+    "aboutExplanation": "Ich bin Schüler am Heinrich-Hertz-Gymnasium in Berlin und interessiere mich für Informatik, Mathematik, Linguistik und Sprachen.",
+    "CV": "Mein Lebenslauf",
+
+
+    "ProjectsTitle": "Projekte",
+
+    "HebrewSongsTitle": "Hebrew Songs",
+    "HebrewSongsDescription": "interaktive Untertitel",
+    "LanguageNotesTitle": "Language Notes",
+    "LanguageNotesDescription": "Tabellen usw. für Sprachen, die ich lerne oder unterrichte",
+    "AlgorithmsTitle": "Algorithms",
+    "AlgorithmsDescription": "Visualisierungen von Algorithmen",
+    "CiphersTitle": "Ciphers",
+    "CiphersDescription": "visuelle Entschlüsselung von Chiffrierungen und unbekannten Schriften",
+    "ChisloBotTitle": "ChisloBot",
+    "ChisloBotDescription": "Telegram-Bot für die Übung russischer Zahlen-Deklination",
+
+
+    "EducationTitle": "Bildung",
+
+    "HHGymTitle": "Heinrich-Hertz-Gymnasium",
+    "HHGymDescription": "Leistungskurse: Mathematik, Informatik",
+    "HHGymPlace": "Berlin",
+    "HHGymDates": "2024–2026",
+
+    "ShimonPeresTitle": "Shimon-Peres-High-Tech-Schule",
+    "ShimonPeresDescription": "Schwerpunkt: Informatik",
+    "ShimonPeresPlace": "Tel Aviv",
+    "ShimonPeresDates": "2021–2024",
+
+    "School57Title": "Staatliche Schule Nr. 57",
+    "School57Description": "Schwerpunkte: Mathematik, Informatik",
+    "School57Place": "Moskau",
+    "School57Dates": "2013–2021"
+  },
+
+  "he": {
+    "titleBrowser": "מיכאל יומדין",
+    "titleText": "מיכאל יומדין",
+    "aboutTitle": "עליי",
+    "aboutExplanation": ".אני לומד בגימנסיית היינריך הרץ בברלין ואוהב מדעי מחשב, מתמטיקה, בלשנות ושפות",
+    "CV": "קורות החיים שלי",
+
+
+    "ProjectsTitle": "פרויקטים",
+
+    "HebrewSongsTitle": "Hebrew Songs",
+    "HebrewSongsDescription": "כתוביות אינטראקטיביות עבור שירים בשביל למידת עברית",
+    "LanguageNotesTitle": "Language Notes",
+    "LanguageNotesDescription": "טבלאות ועוד לשפות שאני לומד ומלמד",
+    "AlgorithmsTitle": "Algorithms",
+    "AlgorithmsDescription": "ויזואליזציה של אלגוריתמים",
+    "CiphersTitle": "Ciphers",
+    "CiphersDescription": "ויזואליזציה של פענוח של צפנים וכתבים לא מוכרים",
+    "ChisloBotTitle": "ChisloBot",
+    "ChisloBotDescription": "בוט טלגרם לתרגול נטיית שם המספר ברוסית",
+
+
+    "EducationTitle": "השכלה",
+
+    "HHGymTitle": "גימנסיית היינריך הרץ",
+    "HHGymDescription": "מגמות: מתמטיקה, מדעי המחשב",
+    "HHGymPlace": "ברלין",
+    "HHGymDates": "2024–2026",
+
+    "ShimonPeresTitle": "התיכון להייטק ואומנויות ע״ש שמעון פרס",
+    "ShimonPeresDescription": "מגמה: מדעי המחשב",
+    "ShimonPeresPlace": "תל אביב",
+    "ShimonPeresDates": "2021–2024",
+
+    "School57Title": "בית ספר מס׳ 57",
+    "School57Description": "מגמות: מתמטיקה, מדעי המחשב",
+    "School57Place": "מוסקבה",
+    "School57Dates": "2013–2021"
+  }
 }
