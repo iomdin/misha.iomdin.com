@@ -34,6 +34,7 @@ index.html
 
     <link rel="stylesheet" href="styles/buttons.css">
     <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
     <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/icons.css">
@@ -150,24 +151,68 @@ index.html
                 <img src="images/icons/education.svg" class="icon">
                 <span id="projectsTitle">Education</span>
             </h2>
-            <ul>
-                <li>
-                    <icon-text>
-                        <img src="images/icons/HHGym.jpeg" class="big-icon">
-                        <b id="schoolHHGym">Heinrich-Hertz-Gymnasium Berlin</b> (2024–...)
-                        <br>
-                        <i>majors: math, computer science</i>
-                    </icon-text>
-                </li>
-                <li>
-                    <icon-text>
-                        <img src="">
-                        <b id="schoolMofet">Shimon Peres High Tech School</b> (2021–2024)
-                        <br>
-                        <i>majors: math, computer science</i>
-                    </icon-text>
-                </li>
-            </ul>
+            <table class="event-table">
+                <!-- Heinrich-Hertz -->
+                <tbody id="HHGym">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/HHGym.jpeg" class="big-icon" id="HHGym-icon">
+                    </td>
+                    <td class="event-title" id="HHGym-title">
+                        <b>Heinrich-Hertz-Gymnasium</b>
+                    </td>
+                    <td class="event-place" id="HHGym-place">Berlin</td>
+                    <td class="event-dates" id="HHGym-dates">2024–2026</td>
+                    </tr>
+                    <tr>
+                    <td colspan="3" class="event-description" id="HHGym-description">
+                        majors: math, computer science
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- Shimon Peres -->
+                <tbody id="ShimonPeres">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/ShimonPeres.png" class="big-icon" id="ShimonPeres-icon">
+                    </td>
+                    <td class="event-title" id="ShimonPeres-title">
+                        <b>Shimon Peres High Tech School</b>
+                    </td>
+                    <td class="event-place" id="ShimonPeres-place">Tel Aviv</td>
+                    <td class="event-dates" id="ShimonPeres-dates">2021–2024</td>
+                    </tr>
+                    <tr>
+                    <td colspan="3" class="event-description" id="ShimonPeres-description">
+                        majors: math, computer science
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- State School #57 -->
+                <tbody id="School57">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/57.png" class="big-icon" id="School57-icon">
+                    </td>
+                    <td class="event-title" id="School57-title">
+                        <b>State School #57</b>
+                    </td>
+                    <td class="event-place" id="School57-place">Tel Aviv</td>
+                    <td class="event-dates" id="School57-dates">2021–2024</td>
+                    </tr>
+                    <tr>
+                    <td colspan="3" class="event-description" id="School57-description">
+                        majors: math, computer science
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
         </div>
     </main>
 

@@ -9,9 +9,9 @@ table, td, th {
 }
 
 table {
-    display: block;
-    overflow-x: auto;
-    border: 0px;
+  display: block;
+  overflow-x: auto;
+  border: 0px;
 }
 
 /* Alternating white-gray rows */
