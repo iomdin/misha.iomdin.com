@@ -102,47 +102,92 @@ index.html
                 <img src="images/icons/project.svg" class="icon">
                 <span id="projectsTitle">Projects</span>
             </h2>
-            <ul class="no_bullets">
-                    <li>
-                        <span class="icon-text">
-                            <img src="images/icons/HebrewSongs.png" class="big-icon">
-                            <span><a href="https://mishaiomdin.github.io/HebrewSongs/" target="_blank">
-                                Hebrew Songs</a>: interactive subtitles
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="icon-text">
-                            <img src="images/icons/translate.svg" class="big-icon">
-                            <span><a href="https://mishaiomdin.github.io/languages/" target="_blank">
-                                Language Notes</a>: tables etc. for languages I learn and teach
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="icon-text">
-                            <img src="images/icons/code.svg" class="big-icon">
-                            <span><a href="https://mishaiomdin.github.io/algorithms/" target="_blank">
-                                Algorithms</a>: visualizations for algorithms
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="icon-text">
-                            <img src="images/icons/cipher.svg" class="big-icon">
-                            <span><a href="https://github.com/mishaiomdin/ciphers" target="_blank">
-                                Ciphers</a>: visual decryption of ciphers
-                            </span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="icon-text">
-                            <img src="images/icons/robot.svg" class="big-icon">
-                            <span><a href="https://github.com/mishaiomdin/ChisloBot" target="_blank">
-                                ChisloBot</a>: Telegram Bot for Russian numerals declension practice
-                            </span>
-                        </span>
-            </ul>
+            <table class="event-table">
+                <!-- Hebrew Songs -->
+                <tbody id="HebrewSongs">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/HebrewSongs.png" class="big-icon" id="HebrewSongsIcon">
+                    </td>
+                    <td class="event-title" id="HebrewSongsTitle">
+                        <a href="https://mishaiomdin.github.io/HebrewSongs/" target="_blank">Hebrew Songs</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="event-description" id="HebrewSongsDescription">
+                        interactive subtitles
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- Language Notes -->
+                <tbody id="LanguageNotes">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/translate.svg" class="big-icon" id="LanguageNotesIcon">
+                    </td>
+                    <td class="event-title" id="LanguageNotesTitle">
+                        <a href="https://mishaiomdin.github.io/languages/" target="_blank">Language Notes</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="event-description" id="LanguageNotesDescription">
+                        tables etc. for languages I learn and teach
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- Algorithms -->
+                <tbody id="Algorithms">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/code.svg" class="big-icon" id="AlgorithmsIcon">
+                    </td>
+                    <td class="event-title" id="AlgorithmsTitle">
+                        <a href="https://mishaiomdin.github.io/algorithms/" target="_blank">Algorithms</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="event-description" id="AlgorithmsDescription">
+                        visualizations for algorithms
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- Ciphers -->
+                <tbody id="Ciphers">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/cipher.svg" class="big-icon" id="CiphersIcon">
+                    </td>
+                    <td class="event-title" id="CiphersTitle">
+                        <a href="https://github.com/mishaiomdin/ciphers" target="_blank">Ciphers</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="event-description" id="CiphersDescription">
+                        visual decryption of ciphers
+                    </td>
+                    </tr>
+                </tbody>
+
+                <!-- ChisloBot -->
+                <tbody id="ChisloBot">
+                    <tr>
+                    <td class="event-icon" rowspan="2">
+                        <img src="images/icons/robot.svg" class="big-icon" id="ChisloBotIcon">
+                    </td>
+                    <td class="event-title" id="ChisloBotTitle">
+                        <a href="https://github.com/mishaiomdin/ChisloBot" target="_blank">ChisloBot</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="event-description" id="ChisloBotDescription">
+                        Telegram Bot for Russian numerals declension practice
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <!-- Education-->
@@ -209,11 +254,8 @@ index.html
                     </tr>
                 </tbody>
             </table>
-
-
-
-
         </div>
+
     </main>
 
     <!-- Main script -->
