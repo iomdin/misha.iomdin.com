@@ -6,7 +6,7 @@
     "aboutExplanation": "I'm a Heinrich-Hertz-Gymnasium student in Berlin, interested in computer science, maths, linguistics and languages.",
     "CV": "My CV",
 
-    
+
     "ProjectsTitle": "Projects",
 
     "HebrewSongsTitle": "Hebrew Songs",
@@ -26,17 +26,21 @@
     "HHGymTitle": "Heinrich-Hertz-Gymnasium",
     "HHGymDescription": "majors: math, computer science",
     "HHGymPlace": "Berlin",
-    "HHGymDates": "2024–2026",
+    
 
     "ShimonPeresTitle": "Shimon Peres High Tech School",
     "ShimonPeresDescription": "major: computer science",
     "ShimonPeresPlace": "Tel Aviv",
-    "ShimonPeresDates": "2021–2024",
+    
 
     "School57Title": "State School #57",
     "School57Description": "majors: math, computer science",
     "School57Place": "Moscow",
-    "School57Dates": "2013–2021"
+
+    "TabeethaTitle": "Tabeetha School",
+    "TabeethaDescription": "English-speaking international school",
+    "TabeethaPlace": "Jaffa"
+    
   },
 
   "ru": {
@@ -66,17 +70,21 @@
     "HHGymTitle": "Гимназия им. Генриха Герца",
     "HHGymDescription": "профили: математика, информатика",
     "HHGymPlace": "Берлин",
-    "HHGymDates": "2024–2026",
+    
 
     "ShimonPeresTitle": "Школа высоких технологий им. Шимона Переса",
     "ShimonPeresDescription": "профиль: информатика",
     "ShimonPeresPlace": "Тель-Авив",
-    "ShimonPeresDates": "2021–2024",
+    
 
     "School57Title": "Школа №57",
     "School57Description": "профили: математика, информатика",
     "School57Place": "Москва",
-    "School57Dates": "2013–2021"
+
+    "TabeethaTitle": "Tabeetha School",
+    "TabeethaDescription": "англоязычная международная школа",
+    "TabeethaPlace": "Jaffa"
+    
   },
 
   "de": {
@@ -106,17 +114,21 @@
     "HHGymTitle": "Heinrich-Hertz-Gymnasium",
     "HHGymDescription": "Leistungskurse: Mathematik, Informatik",
     "HHGymPlace": "Berlin",
-    "HHGymDates": "2024–2026",
+    
 
     "ShimonPeresTitle": "Shimon-Peres-High-Tech-Schule",
     "ShimonPeresDescription": "Schwerpunkt: Informatik",
     "ShimonPeresPlace": "Tel Aviv",
-    "ShimonPeresDates": "2021–2024",
+    
 
     "School57Title": "Staatliche Schule Nr. 57",
     "School57Description": "Schwerpunkte: Mathematik, Informatik",
     "School57Place": "Moskau",
-    "School57Dates": "2013–2021"
+
+    "TabeethaTitle": "Tabeetha School",
+    "TabeethaDescription": "Englischsprachige internationale Schule",
+    "TabeethaPlace": "Jaffa"
+    
   },
 
   "he": {
@@ -146,16 +158,20 @@
     "HHGymTitle": "גימנסיית היינריך הרץ",
     "HHGymDescription": "מגמות: מתמטיקה, מדעי המחשב",
     "HHGymPlace": "ברלין",
-    "HHGymDates": "2024–2026",
+    
 
     "ShimonPeresTitle": "התיכון להייטק ואומנויות ע״ש שמעון פרס",
     "ShimonPeresDescription": "מגמה: מדעי המחשב",
     "ShimonPeresPlace": "תל אביב",
-    "ShimonPeresDates": "2021–2024",
+    
 
     "School57Title": "בית ספר מס׳ 57",
     "School57Description": "מגמות: מתמטיקה, מדעי המחשב",
     "School57Place": "מוסקבה",
-    "School57Dates": "2013–2021"
+
+    "TabeethaTitle": "Tabeetha School",
+    "TabeethaDescription": "בית ספר בינלאומי דובר אנגלית",
+    "TabeethaPlace": "יפו"
+    
   }
 }
