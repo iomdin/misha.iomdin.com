@@ -49,7 +49,29 @@
     "IntroductionToMathematics": "Introduction to mathematics",
     "DiscreteMathematics": "Discrete mathematics",
     "FinalGrade": "final grade",
-    "FinalGrade1": "final grade"
+    "FinalGrade1": "final grade",
+
+    "WorkTitle": "Work experience",
+
+    "ClavisTitle": "Teacher assistant at Clavis Schule",
+    "ClavisDescription": "teaching math, English, programming extracurricular activities for children",
+    "ClavisPlace": "Berlin",
+
+    "HebrewTeacherTitle": "Private Hebrew teacher",
+    "HebrewTeacherDescription": "teaching personalized Hebrew beginner course via Zoom; using various texts, songs, and linguistic problems",
+    "HebrewTeacherPlace": "online",
+
+    "BenediktbeuernTitle": "Lecturer, superviser at summer camp",
+    "BenediktbeuernDescription": "teaching linguistics, supervising groups of students, organizing activities",
+    "BenediktbeuernPlace": "Germany",
+
+    "ChariteTitle": "Internship at Charité",
+    "ChariteDescription": "data analysis with R and Python at Institute of Biometry",
+    "CharitePlace": "Berlin",
+
+    "StradariumTitle": "Course curator at Stradarium",
+    "StradariumDescription": "providing assistance at lectures, providing extra materials",
+    "StradariumPlace": "online"
 
   },
 
@@ -103,7 +125,29 @@
     "IntroductionToMathematics": "Введение в математику",
     "DiscreteMathematics": "Дискретная математика",
     "FinalGrade": "итоговая оценка",
-    "FinalGrade1": "итоговая оценка"
+    "FinalGrade1": "итоговая оценка",
+
+    "WorkTitle": "Опыт работы",
+
+    "ClavisTitle": "Преподаватель-ассистент в школе Clavis",
+    "ClavisDescription": "преподавание на кружках по математике, английскому и программированию",
+    "ClavisPlace": "Берлин",
+
+    "HebrewTeacherTitle": "Частный преподаватель иврита",
+    "HebrewTeacherDescription": "преподавание персонализированного курса иврита для начинающих по Zoom с помощью различных текстов, песен и лингвистических задач",
+    "HebrewTeacherPlace": "онлайн",
+
+    "BenediktbeuernTitle": "Преподаватель и вожатый в летнем лагере",
+    "BenediktbeuernDescription": "преподавание лингвистики, управление детскими группами, организация мероприятий",
+    "BenediktbeuernPlace": "Германия",
+
+    "ChariteTitle": "Практика в Charité",
+    "ChariteDescription": "анализ данных с помощью R и Python в Институте биометрии",
+    "CharitePlace": "Берлин",
+
+    "StradariumTitle": "Куратор курсов в Страдариуме",
+    "StradariumDescription": "ассистентская работа на лекциях, предоставление дополнительных материалов",
+    "StradariumPlace": "онлайн"
     
   },
 
@@ -157,7 +201,29 @@
     "IntroductionToMathematics": "Einführung in die Mathematik",
     "DiscreteMathematics": "Diskrete Mathematik",
     "FinalGrade": "Endnote",
-    "FinalGrade1": "Endnote"
+    "FinalGrade1": "Endnote",
+
+    "WorkTitle": "Berufserfahrung",
+
+    "ClavisTitle": "Lehrerassistent bei Clavis Schule",
+    "ClavisDescription": "Unterricht in Mathe-, Englisch- und Programmier-AGs für Kinder",
+    "ClavisPlace": "Berlin",
+
+    "HebrewTeacherTitle": "Privatlehrer für Hebräisch",
+    "HebrewTeacherDescription": "Führung eines personalisierten Hebräisch-Anfängerkurses über Zoom mit Hilfe verschiedener Texte, Lieder und linguistischer Rätsel",
+    "HebrewTeacherPlace": "online",
+
+    "BenediktbeuernTitle": "Lehrer, Betreuer im Sommercamp",
+    "BenediktbeuernDescription": "Unterrichten von Linguistik, Betreuung von Schülergruppen, Organisation von Aktivitäten",
+    "BenediktbeuernPlace": "Deutschland",
+
+    "ChariteTitle": "Praktikum an der Charité",
+    "ChariteDescription": "Datenanalyse mit R und Python am Institut für Biometrie",
+    "CharitePlace": "Berlin",
+
+    "StradariumTitle": "Kursenbetreuer bei Stradarium",
+    "StradariumDescription": "Unterstützung bei Vorlesungen, Bereitstellung zusätzlicher Materialien",
+    "StradariumPlace": "online"
     
   },
 
@@ -211,7 +277,29 @@
     "IntroductionToMathematics": "אשנב למתמטיקה",
     "DiscreteMathematics": "מתמטיקה בדידה",
     "FinalGrade": "ציון גמר",
-    "FinalGrade1": "ציון גמר"
+    "FinalGrade1": "ציון גמר",
+
+    "WorkTitle": "ניסיון עבודה",
+
+    "ClavisTitle": "מורה ואסיסטנט בבית ספר Clavis",
+    "ClavisDescription": "לימוד חוגים במתמטיקה, אנגלית ותכנות לילדים",
+    "ClavisPlace": "ברלין",
+
+    "HebrewTeacherTitle": "מורה פרטי לעברית",
+    "HebrewTeacherDescription": "לימוד קורס עברית למתחילים בזום בשימוש בטקסטים, שירים ובעיות בבלשנות",
+    "HebrewTeacherPlace": "אונליין",
+
+    "BenediktbeuernTitle": "מרצה ומדריך במחנה קיץ",
+    "BenediktbeuernDescription": "לימוד בלשנות, פיקוח על קבוצות תלמידים, ארגון פעילויות",
+    "BenediktbeuernPlace": "גרמניה",
+
+    "ChariteTitle": "התמחות ב-Charité",
+    "ChariteDescription": "ניתוח נתונים בעזרת R ו-Python במכון לביומטריה",
+    "CharitePlace": "ברלין",
+
+    "StradariumTitle": "מנחה קורסים ב-Stradarium",
+    "StradariumDescription": "עזרה בהרצאות, מתן חומרים נוספים",
+    "StradariumPlace": "אונליין"
     
   }
 }
