@@ -17,3 +17,12 @@ h2 {
 h3 {
   font-size: 1.25em;
 }
+
+/* Default is LTR, nothing special */
+body.rtl,
+body.rtl table,
+body.rtl td,
+body.rtl th {
+    direction: rtl;
+    text-align: right;
+}

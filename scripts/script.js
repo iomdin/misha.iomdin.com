@@ -47,20 +47,27 @@ async function changeLanguage() {
         Object.entries(translations[lang]).forEach(([key, value]) => {
             const element = document.getElementById(key);
             if (element) {
-                // Find first text node
                 const textNode = Array.from(element.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
                 if (textNode) {
                     textNode.nodeValue = value;
                 } else {
-                    // If no text node, insert one at the beginning
                     element.insertBefore(document.createTextNode(value), element.firstChild);
                 }
             }
         });
+
+        // Handle direction/alignment for Hebrew
+        if (lang === "he") {
+            document.body.classList.add("rtl");
+        } else {
+            document.body.classList.remove("rtl");
+        }
+
     } catch (error) {
         console.error("Error loading translations:", error);
     }
 };
+
 
 function saveLocalDataCallback(event) {
     localStorage.setItem(event.currentTarget.id, event.currentTarget.value);
