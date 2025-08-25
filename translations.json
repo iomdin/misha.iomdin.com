@@ -39,8 +39,18 @@
 
     "TabeethaTitle": "Tabeetha School",
     "TabeethaDescription": "English-speaking international school",
-    "TabeethaPlace": "Jaffa"
-    
+    "TabeethaPlace": "Jaffa",
+
+    "UniversityTitle": "University education",
+
+    "OpenUniversityTitle": "Open University of Israel",
+    "OpenUniversityDescription": "courses for talented high school students",
+    "OpenUniversityPlace": "Tel Aviv",
+    "IntroductionToMathematics": "Introduction to mathematics",
+    "DiscreteMathematics": "Discrete mathematics",
+    "FinalGrade": "final grade",
+    "FinalGrade1": "final grade"
+
   },
 
   "ru": {
@@ -83,7 +93,17 @@
 
     "TabeethaTitle": "Tabeetha School",
     "TabeethaDescription": "англоязычная международная школа",
-    "TabeethaPlace": "Jaffa"
+    "TabeethaPlace": "Jaffa",
+
+    "UniversityTitle": "Высшее образование",
+
+    "OpenUniversityTitle": "Открытый университет Израиля",
+    "OpenUniversityDescription": "университетские курсы для талантливых школьников",
+    "OpenUniversityPlace": "Тель-Авив",
+    "IntroductionToMathematics": "Введение в математику",
+    "DiscreteMathematics": "Дискретная математика",
+    "FinalGrade": "итоговая оценка",
+    "FinalGrade1": "итоговая оценка"
     
   },
 
@@ -127,7 +147,17 @@
 
     "TabeethaTitle": "Tabeetha School",
     "TabeethaDescription": "Englischsprachige internationale Schule",
-    "TabeethaPlace": "Jaffa"
+    "TabeethaPlace": "Jaffa",
+
+    "UniversityTitle": "Universität",
+
+    "OpenUniversityTitle": "Open University of Israel",
+    "OpenUniversityDescription": "Kurse für begabte Schüler",
+    "OpenUniversityPlace": "Tel Aviv",
+    "IntroductionToMathematics": "Einführung in die Mathematik",
+    "DiscreteMathematics": "Diskrete Mathematik",
+    "FinalGrade": "Endnote",
+    "FinalGrade1": "Endnote"
     
   },
 
@@ -171,7 +201,17 @@
 
     "TabeethaTitle": "Tabeetha School",
     "TabeethaDescription": "בית ספר בינלאומי דובר אנגלית",
-    "TabeethaPlace": "יפו"
+    "TabeethaPlace": "יפו",
+
+    "UniversityTitle": "Universität",
+
+    "OpenUniversityTitle": "האוניברסיטה הפתוחה",
+    "OpenUniversityDescription": "תוכנית אקדמיה בתיכון לתלמידים מצטיינים",
+    "OpenUniversityPlace": "תל אביב",
+    "IntroductionToMathematics": "אשנב למתמטיקה",
+    "DiscreteMathematics": "מתמטיקה בדידה",
+    "FinalGrade": "ציון גמר",
+    "FinalGrade1": "ציון גמר"
     
   }
 }
