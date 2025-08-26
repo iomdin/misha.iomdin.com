@@ -3,24 +3,8 @@
 // by @mishaiomdin
 
 
-// script.js
-
-function getRandomInt(min, max) {
-    return min + Math.floor(Math.random() * (max - min));
-}
-
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
-function createElementWithArgs(tag, text = '', attributes = {}) {
-    const el = document.createElement(tag);
-    if (text) el.textContent = text;
-    for (const [key, value] of Object.entries(attributes)) {
-      el.setAttribute(key, value);
-    }
-    return el;
-}
+// translation.js
+// Handles the language selection and translation of the website
 
 
 window.onload = function () {
@@ -67,17 +51,3 @@ async function changeLanguage() {
         console.error("Error loading translations:", error);
     }
 };
-
-
-function saveLocalDataCallback(event) {
-    localStorage.setItem(event.currentTarget.id, event.currentTarget.value);
-}
-
-function saveLocalData(element) {
-    localStorage.setItem(element.id, element.value);
-}
-
-
-  
-
-  
