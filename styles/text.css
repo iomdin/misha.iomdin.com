@@ -26,3 +26,9 @@ body.rtl th {
     direction: rtl;
     text-align: right;
 }
+
+.keyword {
+  background-color: #f4f7f6;
+  border-radius: 3px;
+  padding: 2px;
+}
