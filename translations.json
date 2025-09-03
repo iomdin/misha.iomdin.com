@@ -68,6 +68,7 @@
         "KurQmaTitle": "KurQma Philological Conference",
         "KurQmaDescription": "a talk on programming languages",
         "CoursesTitle": "Courses",
+        "OnlineCoursesTitle": "Online courses",
         "SLS": "Summer Linguistics School",
         "Sommerschule": "Summer Mathematics School",
         "Sirius": "Sirius Linguistics Program",
@@ -91,7 +92,7 @@
         "SkillAlgorithms": "Algorithms",
         "LanguagesTitle": "Languages",
         "SkillRussian": "Russian (native)",
-        "SkillEnglish": "English (proficient)",
+        "SkillEnglish": "English (fluent)",
         "SkillGerman": "German (fluent)",
         "SkillHebrew": "Hebrew (fluent)",
         "SkillFrench": "French (intermediate)"
@@ -165,6 +166,7 @@
         "KurQmaTitle": "Филологическая конференция «КурКЬЮма»",
         "KurQmaDescription": "доклад о языках программирования",
         "CoursesTitle": "Курсы",
+        "OnlineCoursesTitle": "Онлайн-курсы",
         "SLS": "Летняя лингвистическая школа",
         "Sommerschule": "Летняя школа по математике",
         "Sirius": "Программа по лингвистике в «Сириусе»",
@@ -189,9 +191,9 @@
         "LanguagesTitle": "Языки",
         "SkillRussian": "русский (родной)",
         "SkillEnglish": "английский (свободный)",
-        "SkillGerman": "German (свободный)",
-        "SkillHebrew": "Hebrew (свободный)",
-        "SkillFrench": "French (пороговый)"
+        "SkillGerman": "немецкий (свободный)",
+        "SkillHebrew": "иврит (свободный)",
+        "SkillFrench": "французский (пороговый)"
     },
     "de": {
         "titleBrowser": "Mischa Iomdin",
@@ -262,6 +264,7 @@
         "KurQmaTitle": "KurQma (Philologie-Konferenz)",
         "KurQmaDescription": "ein Vortrag zu Programmiersprachen",
         "CoursesTitle": "Kurse",
+        "OnlineCoursesTitle": "Online-Kurse",
         "SLS": "Linguistik-Sommerschule",
         "Sommerschule": "Sommerschule “Lust auf Mathematik”",
         "Sirius": "Linguistik-Programm im Sirius-Zentrum",
@@ -359,6 +362,7 @@
         "KurQmaTitle": "KurQma (כנס בפילולוגיה)",
         "KurQmaDescription": "הרצאה על שפות תכנות",
         "CoursesTitle": "קורסים",
+        "OnlineCoursesTitle": "קורסי אונליין",
         "SLS": "בית ספר קיצי בבלשנות",
         "Sommerschule": "בית ספר קיצי במתמטיקה",
         "Sirius": "קורס בלשנות ב״סיריוס״",
