@@ -28,7 +28,16 @@ body.rtl th {
 }
 
 .keyword {
-  background-color: #f4f7f6;
+  /*background-color: #f4f7f6;*/
+  background-color: #eceeed;
   border-radius: 3px;
   padding: 2px;
+}
+
+.keyword-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
 }
