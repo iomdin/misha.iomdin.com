@@ -95,7 +95,15 @@
         "SkillEnglish": "English (fluent)",
         "SkillGerman": "German (fluent)",
         "SkillHebrew": "Hebrew (fluent)",
-        "SkillFrench": "French (intermediate)"
+        "SkillFrench": "French (intermediate)",
+        "AchievementsTitle": "Achievements",
+        "IOLTitle": "International Linguistics Olympiad",
+        "IOLBronze": "bronze medal",
+        "IOLSilver": "silver medal",
+        "BWFSTitle": "German National Foreign Languages Competition",
+        "BWFS1prize": "first prize",
+        "StudienstiftungTitle": "German Academic Scholarship Foundation",
+        "StudienstiftungDescription": "accepted to the scholarship in 2025"
     },
     "ru": {
         "titleBrowser": "Миша Иомдин",
@@ -193,7 +201,15 @@
         "SkillEnglish": "английский (свободный)",
         "SkillGerman": "немецкий (свободный)",
         "SkillHebrew": "иврит (свободный)",
-        "SkillFrench": "французский (пороговый)"
+        "SkillFrench": "французский (пороговый)",
+        "AchievementsTitle": "Достижения",
+        "IOLTitle": "Международная олимпиада по лингвистике",
+        "IOLBronze": "бронзовая медаль",
+        "IOLSilver": "серебряная медаль",
+        "BWFSTitle": "Всегерманская олимпиада по иностранным языкам",
+        "BWFS1prize": "диплом первой степени",
+        "StudienstiftungTitle": "Академическая стипендия Германии",
+        "StudienstiftungDescription": "принят в стипендию в 2025"
     },
     "de": {
         "titleBrowser": "Mischa Iomdin",
@@ -291,7 +307,15 @@
         "SkillEnglish": "Englisch (fließend)",
         "SkillGerman": "Deutsch (fließend)",
         "SkillHebrew": "Hebräisch (fließend)",
-        "SkillFrench": "Französisch (gute Kenntnisse)"
+        "SkillFrench": "Französisch (gute Kenntnisse)",
+        "AchievementsTitle": "Erfolge",
+        "IOLTitle": "Internationale Linguistik-Olympiade",
+        "IOLBronze": "Bronzemedaille",
+        "IOLSilver": "Silbermedaille",
+        "BWFSTitle": "Bundeswettbewerb Fremdsprachen",
+        "BWFS1prize": "1er Preis",
+        "StudienstiftungTitle": "Studienstiftung des deutschen Volkes",
+        "StudienstiftungDescription": "aufgenommen im Jahr 2025"
     },
     "he": {
         "titleBrowser": "מיכאל יומדין",
@@ -362,7 +386,7 @@
         "KurQmaTitle": "KurQma (כנס בפילולוגיה)",
         "KurQmaDescription": "הרצאה על שפות תכנות",
         "CoursesTitle": "קורסים",
-        "OnlineCoursesTitle": "קורסי אונליין",
+        "OnlineCoursesTitle": "קורסים אונליין",
         "SLS": "בית ספר קיצי בבלשנות",
         "Sommerschule": "בית ספר קיצי במתמטיקה",
         "Sirius": "קורס בלשנות ב״סיריוס״",
@@ -389,6 +413,14 @@
         "SkillEnglish": "אנגלית (שוטפת)",
         "SkillGerman": "גרמנית (שוטפת)",
         "SkillHebrew": "עברית (שוטפת)",
-        "SkillFrench": "צרפתית (יומיומית)"
+        "SkillFrench": "צרפתית (יומיומית)",
+        "AchievementsTitle": "הישגים",
+        "IOLTitle": "אולימפיאדת הבלשנות הבינלאומית",
+        "IOLBronze": "מדליית ארד",
+        "IOLSilver": "מדליית כסף",
+        "BWFSTitle": "תחרות לאומית בשפות זרות בגרמניה",
+        "BWFS1prize": "פרס ראשון",
+        "StudienstiftungTitle": "הקרן למלגות אקדמיות בגרמניה",
+        "StudienstiftungDescription": "התקבל ב-2025"
     }
 }
