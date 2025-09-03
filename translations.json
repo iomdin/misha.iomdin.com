@@ -82,7 +82,12 @@
         "SiriusMorphology": "Morphology",
         "YandexML": "Machine Learning",
         "YandexDA": "Data Analysis",
-        "SkillsTitle": "Skills"
+        "SkillsTitle": "Skills",
+        "SkillTranslation": "Translation",
+        "SkillTeaching": "Teaching",
+        "SkillVideoEditing": "Video editing",
+        "SkillLinguisticProblems": "Linguistic problems",
+        "SkillAlgorithms": "Algorithms"
     },
     "ru": {
         "titleBrowser": "Миша Иомдин",
@@ -156,7 +161,7 @@
         "SLS": "Летняя лингвистическая школа",
         "Sirius": "Программа по лингвистике в «Сириусе»",
         "Orpheus": "Семинары по физике «Orpheus»",
-        "PASCH": "Курс немецкого языка PASCH и Института Гёте",
+        "PASCH": "Курс PASCH, Института Гёте",
         "SiriusDeepLearning": "Глубокое обучение",
         "SiriusDA": "Анализ данных на Python",
         "SiriusNLP": "Обработка естественного языка",
@@ -167,7 +172,12 @@
         "SiriusMorphology": "Морфология",
         "YandexML": "Машинное обучение",
         "YandexDA": "Анализ данных",
-        "SkillsTitle": "Умения"
+        "SkillsTitle": "Умения",
+        "SkillTranslation": "Перевод",
+        "SkillTeaching": "Преподавание",
+        "SkillVideoEditing": "Монтаж",
+        "SkillLinguisticProblems": "Лингвистические задачи",
+        "SkillAlgorithms": "Алгоритмы"
     },
     "de": {
         "titleBrowser": "Mischa Iomdin",
@@ -252,7 +262,12 @@
         "SiriusMorphology": "Morphology",
         "YandexML": "Machine Learning",
         "YandexDA": "Data Analysis",
-        "SkillsTitle": "Skills"
+        "SkillsTitle": "Kenntnisse",
+        "SkillTranslation": "Übersetzung",
+        "SkillTeaching": "Unterricht",
+        "SkillVideoEditing": "Videoschnitt",
+        "SkillLinguisticProblems": "Linguistikrätsel",
+        "SkillAlgorithms": "Algorithmen"
     },
     "he": {
         "titleBrowser": "מיכאל יומדין",
@@ -337,6 +352,11 @@
         "SiriusMorphology": "Morphology",
         "YandexML": "Machine Learning",
         "YandexDA": "Data Analysis",
-        "SkillsTitle": "Skills"
+        "SkillsTitle": "Skills",
+        "SkillTranslation": "תרגום",
+        "SkillTeaching": "Teaching",
+        "SkillVideoEditing": "Video editing",
+        "SkillLinguisticProblems": "Linguistic problems",
+        "SkillAlgorithms": "Algorithms"
     }
 }
