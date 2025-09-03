@@ -41,3 +41,8 @@ body.rtl th {
     gap: 0.5em;
     flex-wrap: wrap;
 }
+
+.ltr {
+  direction:ltr;
+  display:inline-block
+}
