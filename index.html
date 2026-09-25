@@ -13,7 +13,7 @@ index.html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Misha Iomdin">
-    <meta property="og:description" content="A Heinrich-Hertz-Gymnasium Berlin student, interested in computer science, maths, linguistics and languages.">
+    <meta property="og:description" content="A Humboldt University of Berlin student, interested in computer science, maths, linguistics and languages.">
     <meta property="og:url" content="https://misha.iomdin.com/">
     <meta property="og:image" content="https://misha.iomdin.com/images/MishaBook.jpg">
     <meta property="og:type" content="website">
@@ -83,8 +83,14 @@ index.html
     <main>
         <!-- About-->
         <div id="about">
-            <p id="aboutExplanation">
-                I'm a Heinrich-Hertz-Gymnasium student in Berlin, interested in computer science, maths, linguistics and languages.
+            <p id="aboutUni">
+                Undergraduate student in mathematics & computer science at Humboldt University of Berlin. Supported by the German Academic Scholarship Foundation.
+            </p>
+            <p id="aboutLing">
+                Gold medalist of the International Linguistics Olympiad (IOL), member of the problem committee of the German Linguistics Olympiad and the organizing committee of the Israeli Linguistics Olympiad.
+            </p>
+            <p id="aboutProj">
+                Teacher and developer of projects in language, linguistics, mathematics and computer science education.
             </p>
         </div>
 
@@ -192,13 +198,33 @@ index.html
             </table>
         </div>
 
-        <!-- High School-->
-        <div id="School">
+        <!-- Education -->
+        <div id="Education">
             <h2 class="icon-text">
                 <img src="images/icons/education.svg" class="icon">
-                <span id="SchoolTitle">School</span>
+                <span id="EducationTitle">Education</span>
             </h2>
             <table class="event-table">
+
+                <!-- HU -->
+                <tbody id="HU">
+                    <tr>
+                        <td class="event-icon" rowspan="2">
+                            <img src="images/icons/HU.png" class="big-icon" id="HUIcon">
+                        </td>
+                        <td class="event-title" id="HUTitle">
+                            Humboldt University of Berlin
+                        </td>
+                        <td class="event-place" id="HUPlace">Berlin</td>
+                        <td class="event-dates" id="HUDates">2026–</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="event-description" id="HUDescription">
+                            double majors: mathematics, computer science
+                        </td>
+                    </tr>
+                </tbody>
+
                 <!-- Heinrich-Hertz -->
                 <tbody id="HHGym">
                     <tr>
@@ -213,7 +239,30 @@ index.html
                     </tr>
                     <tr>
                         <td colspan="3" class="event-description" id="HHGymDescription">
-                            majors: math, computer science
+                            majors: mathematics, computer science
+                        </td>
+                    </tr>
+                </tbody>
+
+                <!-- Open University -->
+                <tbody id="OpenUniversity">
+                    <tr>
+                        <td class="event-icon" rowspan="2">
+                            <img src="images/icons/OpenUniversityIsrael.png" class="big-icon" id="OpenUniversityIcon">
+                        </td>
+                        <td class="event-title" id="OpenUniversityTitle">
+                            Open University of Israel
+                        </td>
+                        <td class="event-place" id="OpenUniversityPlace">Tel Aviv</td>
+                        <td class="event-dates" id="OpenUniversityDates">2022–2023</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="event-description" id="OpenUniversityDescription">
+                            courses for talented high school students
+                            <ul>
+                                <li><span id="IntroductionToMathematics">Introduction to mathematics</span> (<span id="FinalGrade">final grade</span>: 100/100)</li>
+                                <li><span id="DiscreteMathematics">Discrete mathematics</span> (<span id="FinalGrade1">final grade</span>: 100/100)</li>
+                            </ul>
                         </td>
                     </tr>
                 </tbody>
@@ -271,38 +320,6 @@ index.html
                     <tr>
                         <td colspan="3" class="event-description" id="TabeethaDescription">
                             English-speaking international school
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- University -->
-        <div id="University">
-            <h2 class="icon-text">
-                <img src="images/icons/education.svg" class="icon">
-                <span id="UniversityTitle">University education</span>
-            </h2>
-            <table class="event-table">
-                <!-- Heinrich-Hertz -->
-                <tbody id="OpenUniversity">
-                    <tr>
-                        <td class="event-icon" rowspan="2">
-                            <img src="images/icons/OpenUniversityIsrael.png" class="big-icon" id="OpenUniversityIcon">
-                        </td>
-                        <td class="event-title" id="OpenUniversityTitle">
-                            Open University of Israel
-                        </td>
-                        <td class="event-place" id="OpenUniversityPlace">Tel Aviv</td>
-                        <td class="event-dates" id="OpenUniversityDates">2022–2023</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" class="event-description" id="OpenUniversityDescription">
-                            courses for talented high school students
-                            <ul>
-                                <li><span id="IntroductionToMathematics">Introduction to mathematics</span> (<span id="FinalGrade">final grade</span>: 100/100)</li>
-                                <li><span id="DiscreteMathematics">Discrete mathematics</span> (<span id="FinalGrade1">final grade</span>: 100/100)</li>
-                            </ul>
                         </td>
                     </tr>
                 </tbody>
@@ -586,9 +603,11 @@ index.html
                     </tr>
                     <tr>
                         <td colspan="1" class="event-description" id="IOLDescription">
-                            <span class="icon-text"><img src="images/icons/BronzeMedal.png" class="icon"><span id="IOLBronze">bronze medal</span> (2023) <a href="https://www.israelhayom.com/2023/08/06/in-first-israel-team-returns-with-medal-from-international-linguistics-competition/" target="_blank"><img src="images/icons/link.svg" class="icon"></a></span>
+                            <span class="icon-text"><img src="images/icons/GoldMedal.svg" class="icon"><span id="IOLGold">gold medal</span> (2026) <a href="https://idw-online.de/de/news875499" target="_blank"><img src="images/icons/link.svg" class="icon"></a></span>
                             <br>
                             <span class="icon-text"><img src="images/icons/SilverMedal.png" class="icon"><img src="images/icons/SilverMedal.png" class="icon"><span id="IOLSilver">silver medal</span> (2024, 2025) <a href="https://hhgym.de/mikhail-iomdin-gewinnt-bei-der-internationalen-linguistik-olympiade-silber/" target="_blank"><img src="images/icons/link.svg" class="icon"></a></span>
+                            <br>
+                            <span class="icon-text"><img src="images/icons/BronzeMedal.png" class="icon"><span id="IOLBronze">bronze medal</span> (2023) <a href="https://www.israelhayom.com/2023/08/06/in-first-israel-team-returns-with-medal-from-international-linguistics-competition/" target="_blank"><img src="images/icons/link.svg" class="icon"></a></span>                            
                         </td>
                     </tr>
                 </tbody>
